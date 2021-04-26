@@ -23,4 +23,5 @@ namespace Tools
 
     void DrawUnitHealthBars();
     void DrawHealthBar(BWAPI::Unit unit, double ratio, BWAPI::Color color, int yOffset);
+    BWAPI::Unit GetEnemyUnitOfType(BWAPI::UnitType type);
 }
